@@ -1,0 +1,32 @@
+.navLink{
+    margin: 0;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cart-icon-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 50%;
+    background-color: #e53935;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
